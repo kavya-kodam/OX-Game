@@ -1,3 +1,2 @@
-# OX-Game
-This is my first Git Repository.
-OX is my first game
+# currency converter
+<p>This is my first Git Repository</p>
