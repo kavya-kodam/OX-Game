@@ -45,7 +45,6 @@ updatecurr = async() => {
     let total = (rate * amtvalue).toFixed(2);
     let result = document.querySelector('.msg');
     result.innerText = ` ${amtvalue} ${fromcurr.value} = ${total} ${tocurr.value}`;
-    window.history.replaceState({}, '', `${location.pathname}?from=${fromcurr.value}&to=${tocurr.value}`);
 
 }
 
